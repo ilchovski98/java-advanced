@@ -15,5 +15,11 @@ public class Main {
         list.add("Yeah");
         String string = list.get(0);
         System.out.println(string);
+
+//        var intList = new GenericList<Integer>();
+        GenericList<Integer> intList = new GenericList<>();
+        intList.add(1); // Boxing
+        int ints = intList.get(0); // Unboxing
+        System.out.println(ints);
     }
 }
