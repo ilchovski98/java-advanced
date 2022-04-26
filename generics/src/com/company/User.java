@@ -10,13 +10,10 @@ public class User implements Comparable<User> {
     @Override
     public int compareTo(User other) {
         return points - other.points;
+    }
 
-//        if (points < o.points)
-//            return -1;
-//
-//        if (points == o.points)
-//            return 0;
-//
-//        return -1;
+    @Override
+    public String toString() {
+        return "Points=" + points;
     }
 }
