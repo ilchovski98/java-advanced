@@ -1,7 +1,7 @@
-public class IntegerPrinter {
-    private Integer thingToPrint;
+public class Printer<T> {
+    private T thingToPrint;
 
-    public IntegerPrinter(Integer thingToPrint) {
+    public Printer(T thingToPrint) {
         this.thingToPrint = thingToPrint;
     }
 

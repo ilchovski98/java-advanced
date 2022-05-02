@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        IntegerPrinter printer = new IntegerPrinter(10);
+        Printer<Integer> printer = new Printer<>(12);
+        Printer<Double> doublePrinter = new Printer<>(12.2);
 
         printer.print();
+        doublePrinter.print();
     }
 }
