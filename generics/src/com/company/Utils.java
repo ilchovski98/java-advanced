@@ -14,6 +14,6 @@ public class Utils {
     }
 
     public static void printUsers(GenericList<?> users) {
-        users.get
+        System.out.println(".");
     }
 }
