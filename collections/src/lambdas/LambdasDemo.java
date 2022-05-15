@@ -7,7 +7,7 @@ public class LambdasDemo {
 
     public void show() {
         var demo = new LambdasDemo();
-        greet(message -> demo.print(message));
+//        greet(message -> demo.print(message));
         greet(demo::print);
     }
 
