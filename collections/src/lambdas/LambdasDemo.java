@@ -1,14 +1,13 @@
 package lambdas;
 
 public class LambdasDemo {
-    public void print(String message) {
+    public LambdasDemo(String message) {
         System.out.println(message);
     }
 
     public void show() {
-        var demo = new LambdasDemo();
-//        greet(message -> demo.print(message));
-        greet(demo::print);
+//        greet(message -> new LambdasDemo(message));
+        greet(LambdasDemo::new);
     }
 
     public static void greet(Printer printer) {
