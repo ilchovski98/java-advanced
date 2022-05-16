@@ -3,6 +3,8 @@ package lambdas;
 public class LambdasDemo {
     public LambdasDemo(String message) {
         System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
     }
 
     public void show() {
